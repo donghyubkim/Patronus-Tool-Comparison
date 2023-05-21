@@ -1,0 +1,175 @@
+2023-05-21 17:38:05,229 INFO    StreamThr :88391 [internal.py:wandb_internal():86] W&B internal server running at pid: 88391, started at: 2023-05-21 17:38:05.228667
+2023-05-21 17:38:05,230 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: status
+2023-05-21 17:38:05,231 INFO    WriterThread:88391 [datastore.py:open_for_write():85] open: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/run-agcj9tc4.wandb
+2023-05-21 17:38:05,233 DEBUG   SenderThread:88391 [sender.py:send():375] send: header
+2023-05-21 17:38:05,286 DEBUG   SenderThread:88391 [sender.py:send():375] send: run
+2023-05-21 17:38:05,687 INFO    SenderThread:88391 [dir_watcher.py:__init__():219] watching files in: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files
+2023-05-21 17:38:05,688 INFO    SenderThread:88391 [sender.py:_start_run_threads():1124] run started: agcj9tc4 with start time 1684705085.227635
+2023-05-21 17:38:05,688 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: summary_record
+2023-05-21 17:38:05,688 INFO    SenderThread:88391 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-21 17:38:05,694 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: check_version
+2023-05-21 17:38:05,694 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: check_version
+2023-05-21 17:38:05,862 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: run_start
+2023-05-21 17:38:05,864 DEBUG   HandlerThread:88391 [system_info.py:__init__():31] System info init
+2023-05-21 17:38:05,864 DEBUG   HandlerThread:88391 [system_info.py:__init__():46] System info init done
+2023-05-21 17:38:05,864 INFO    HandlerThread:88391 [system_monitor.py:start():181] Starting system monitor
+2023-05-21 17:38:05,864 INFO    SystemMonitor:88391 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-21 17:38:05,864 INFO    HandlerThread:88391 [system_monitor.py:probe():201] Collecting system info
+2023-05-21 17:38:05,865 DEBUG   HandlerThread:88391 [system_info.py:probe():195] Probing system
+2023-05-21 17:38:05,865 INFO    SystemMonitor:88391 [interfaces.py:start():190] Started cpu monitoring
+2023-05-21 17:38:05,866 INFO    SystemMonitor:88391 [interfaces.py:start():190] Started disk monitoring
+2023-05-21 17:38:05,874 INFO    SystemMonitor:88391 [interfaces.py:start():190] Started memory monitoring
+2023-05-21 17:38:05,878 INFO    SystemMonitor:88391 [interfaces.py:start():190] Started network monitoring
+2023-05-21 17:38:05,887 DEBUG   HandlerThread:88391 [system_info.py:_probe_git():180] Probing git
+2023-05-21 17:38:05,960 DEBUG   HandlerThread:88391 [system_info.py:_probe_git():188] Probing git done
+2023-05-21 17:38:05,960 DEBUG   HandlerThread:88391 [system_info.py:probe():240] Probing system done
+2023-05-21 17:38:05,960 DEBUG   HandlerThread:88391 [system_monitor.py:probe():210] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.8.8', 'heartbeatAt': '2023-05-21T21:38:05.865751', 'startedAt': '2023-05-21T21:38:05.213636', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'wine.py', 'codePath': 'WineDataset/WandB/wine.py', 'git': {'remote': 'https://github.com/schalkapurkar/Patronus-Tool-Comparison.git', 'commit': '8710b3d779f6412b389ceecb08e835c392c1966e'}, 'email': 'saloni.chalkapurkar@gmail.com', 'root': '/Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison', 'host': 'Salonis-MacBook-Pro.local', 'username': 'salonichalkapurkar', 'executable': '/Users/salonichalkapurkar/opt/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 228.27386474609375, 'used': 164.51166152954102}, 'memory': {'total': 8.0}}
+2023-05-21 17:38:05,960 INFO    HandlerThread:88391 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-21 17:38:05,960 INFO    HandlerThread:88391 [system_monitor.py:probe():214] Publishing system info
+2023-05-21 17:38:05,960 DEBUG   HandlerThread:88391 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-21 17:38:05,961 DEBUG   HandlerThread:88391 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-21 17:38:05,961 DEBUG   HandlerThread:88391 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-21 17:38:06,695 INFO    Thread-12 :88391 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/wandb-summary.json
+2023-05-21 17:38:06,695 INFO    Thread-12 :88391 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/conda-environment.yaml
+2023-05-21 17:38:06,695 INFO    Thread-12 :88391 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/requirements.txt
+2023-05-21 17:38:09,522 DEBUG   HandlerThread:88391 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-21 17:38:09,523 INFO    HandlerThread:88391 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-21 17:38:09,527 DEBUG   SenderThread:88391 [sender.py:send():375] send: files
+2023-05-21 17:38:09,527 INFO    SenderThread:88391 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-21 17:38:09,534 DEBUG   SenderThread:88391 [sender.py:send():375] send: telemetry
+2023-05-21 17:38:09,534 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-21 17:38:09,535 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: stop_status
+2023-05-21 17:38:09,563 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-21 17:38:09,658 DEBUG   SenderThread:88391 [sender.py:send():375] send: history
+2023-05-21 17:38:09,658 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: summary_record
+2023-05-21 17:38:09,659 INFO    SenderThread:88391 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-21 17:38:09,659 DEBUG   SenderThread:88391 [sender.py:send():375] send: telemetry
+2023-05-21 17:38:09,659 DEBUG   SenderThread:88391 [sender.py:send():375] send: exit
+2023-05-21 17:38:09,659 INFO    SenderThread:88391 [sender.py:send_exit():598] handling exit code: 0
+2023-05-21 17:38:09,659 INFO    SenderThread:88391 [sender.py:send_exit():600] handling runtime: 3
+2023-05-21 17:38:09,659 INFO    SenderThread:88391 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-21 17:38:09,659 INFO    SenderThread:88391 [sender.py:send_exit():606] send defer
+2023-05-21 17:38:09,659 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:09,660 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-21 17:38:09,660 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:09,660 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-21 17:38:09,660 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 1
+2023-05-21 17:38:09,660 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:09,660 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-21 17:38:09,660 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:09,660 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-21 17:38:09,660 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 2
+2023-05-21 17:38:09,660 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:09,660 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-21 17:38:09,660 INFO    HandlerThread:88391 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-21 17:38:09,661 DEBUG   SystemMonitor:88391 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-21 17:38:09,661 DEBUG   SystemMonitor:88391 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-21 17:38:09,661 DEBUG   SystemMonitor:88391 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-21 17:38:09,661 INFO    HandlerThread:88391 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-21 17:38:09,661 INFO    HandlerThread:88391 [interfaces.py:finish():202] Joined disk monitor
+2023-05-21 17:38:09,661 INFO    HandlerThread:88391 [interfaces.py:finish():202] Joined memory monitor
+2023-05-21 17:38:09,661 INFO    HandlerThread:88391 [interfaces.py:finish():202] Joined network monitor
+2023-05-21 17:38:09,662 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:09,662 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-21 17:38:09,662 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 3
+2023-05-21 17:38:09,662 DEBUG   SenderThread:88391 [sender.py:send():375] send: stats
+2023-05-21 17:38:09,662 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:09,662 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-21 17:38:09,662 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:09,662 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-21 17:38:09,662 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 4
+2023-05-21 17:38:09,662 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:09,662 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-21 17:38:09,663 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:09,663 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-21 17:38:09,663 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 5
+2023-05-21 17:38:09,663 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:09,663 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-21 17:38:09,663 DEBUG   SenderThread:88391 [sender.py:send():375] send: summary
+2023-05-21 17:38:09,663 INFO    SenderThread:88391 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-21 17:38:09,663 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:09,663 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-21 17:38:09,663 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 6
+2023-05-21 17:38:09,663 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:09,663 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-21 17:38:09,664 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:09,664 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-21 17:38:09,667 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: status_report
+2023-05-21 17:38:09,708 INFO    Thread-12 :88391 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/wandb-summary.json
+2023-05-21 17:38:09,708 INFO    Thread-12 :88391 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/conda-environment.yaml
+2023-05-21 17:38:09,708 INFO    Thread-12 :88391 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/wandb-metadata.json
+2023-05-21 17:38:09,770 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 7
+2023-05-21 17:38:09,770 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:09,770 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-21 17:38:09,771 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:09,771 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-21 17:38:09,771 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 8
+2023-05-21 17:38:09,771 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:09,771 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-21 17:38:09,771 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:09,771 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-21 17:38:09,778 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 9
+2023-05-21 17:38:09,778 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:09,778 DEBUG   SenderThread:88391 [sender.py:send():375] send: artifact
+2023-05-21 17:38:09,778 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-21 17:38:09,982 INFO    wandb-upload_0:88391 [upload_job.py:push():137] Uploaded file /var/folders/qc/j3db2v591c944p2dqlp18b340000gn/T/tmpjd3o22rbwandb/g490d83p-wandb-metadata.json
+2023-05-21 17:38:10,570 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-21 17:38:10,714 INFO    Thread-12 :88391 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/config.yaml
+2023-05-21 17:38:10,726 INFO    wandb-upload_0:88391 [upload_job.py:push():95] Uploaded file /Users/salonichalkapurkar/Library/Application Support/wandb/artifacts/staging/tmp717k4fhr
+2023-05-21 17:38:10,758 INFO    wandb-upload_1:88391 [upload_job.py:push():95] Uploaded file /Users/salonichalkapurkar/Library/Application Support/wandb/artifacts/staging/tmpx3etz1gx
+2023-05-21 17:38:11,654 INFO    SenderThread:88391 [sender.py:send_artifact():1474] sent artifact job-https___github.com_schalkapurkar_Patronus-Tool-Comparison.git_WineDataset_WandB_wine.py - {'id': 'QXJ0aWZhY3Q6NDYxODEwOTE3', 'digest': 'ed2ef6d8ccdfe0d6c164e3168ef8c1ed', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcwODU2ODIz', 'latestArtifact': None}, 'version': 'latest'}
+2023-05-21 17:38:11,655 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:11,655 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-21 17:38:11,655 INFO    SenderThread:88391 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-21 17:38:11,722 INFO    SenderThread:88391 [dir_watcher.py:finish():395] scan: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files
+2023-05-21 17:38:11,722 INFO    SenderThread:88391 [dir_watcher.py:finish():409] scan save: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/requirements.txt requirements.txt
+2023-05-21 17:38:11,723 INFO    SenderThread:88391 [dir_watcher.py:finish():409] scan save: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/config.yaml config.yaml
+2023-05-21 17:38:11,729 INFO    SenderThread:88391 [dir_watcher.py:finish():409] scan save: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/wandb-summary.json wandb-summary.json
+2023-05-21 17:38:11,733 INFO    SenderThread:88391 [dir_watcher.py:finish():409] scan save: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/conda-environment.yaml conda-environment.yaml
+2023-05-21 17:38:11,734 INFO    SenderThread:88391 [dir_watcher.py:finish():409] scan save: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/wandb-metadata.json wandb-metadata.json
+2023-05-21 17:38:11,738 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 10
+2023-05-21 17:38:11,742 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: poll_exit
+2023-05-21 17:38:11,742 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:11,743 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-21 17:38:11,745 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:11,745 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-21 17:38:11,745 INFO    SenderThread:88391 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-21 17:38:12,098 INFO    wandb-upload_1:88391 [upload_job.py:push():137] Uploaded file /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/config.yaml
+2023-05-21 17:38:12,129 INFO    wandb-upload_0:88391 [upload_job.py:push():137] Uploaded file /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/requirements.txt
+2023-05-21 17:38:12,219 INFO    wandb-upload_2:88391 [upload_job.py:push():137] Uploaded file /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/wandb-summary.json
+2023-05-21 17:38:12,232 INFO    wandb-upload_3:88391 [upload_job.py:push():137] Uploaded file /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/files/conda-environment.yaml
+2023-05-21 17:38:12,442 INFO    Thread-11 :88391 [sender.py:transition_state():626] send defer: 11
+2023-05-21 17:38:12,444 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:12,445 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-21 17:38:12,446 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:12,446 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-21 17:38:12,446 INFO    SenderThread:88391 [file_pusher.py:join():172] waiting for file pusher
+2023-05-21 17:38:12,446 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 12
+2023-05-21 17:38:12,446 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:12,446 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-21 17:38:12,447 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:12,447 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-21 17:38:12,560 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 13
+2023-05-21 17:38:12,561 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:12,561 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-21 17:38:12,562 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:12,562 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-21 17:38:12,562 INFO    SenderThread:88391 [sender.py:transition_state():626] send defer: 14
+2023-05-21 17:38:12,563 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 17:38:12,563 DEBUG   SenderThread:88391 [sender.py:send():375] send: final
+2023-05-21 17:38:12,563 INFO    HandlerThread:88391 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-21 17:38:12,563 DEBUG   SenderThread:88391 [sender.py:send():375] send: footer
+2023-05-21 17:38:12,563 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: defer
+2023-05-21 17:38:12,563 INFO    SenderThread:88391 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-21 17:38:12,566 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-21 17:38:12,566 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: server_info
+2023-05-21 17:38:12,567 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-21 17:38:12,567 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: poll_exit
+2023-05-21 17:38:12,567 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-21 17:38:12,568 DEBUG   SenderThread:88391 [sender.py:send_request():402] send_request: server_info
+2023-05-21 17:38:12,635 DEBUG   HandlerThread:88391 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-21 17:38:12,636 INFO    HandlerThread:88391 [handler.py:finish():842] shutting down handler
+2023-05-21 17:38:13,573 INFO    WriterThread:88391 [datastore.py:close():298] close: /Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison/WineDataset/WandB/wandb/run-20230521_173805-agcj9tc4/run-agcj9tc4.wandb
+2023-05-21 17:38:13,634 INFO    SenderThread:88391 [sender.py:finish():1550] shutting down sender
+2023-05-21 17:38:13,635 INFO    SenderThread:88391 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-21 17:38:13,635 INFO    SenderThread:88391 [file_pusher.py:join():172] waiting for file pusher

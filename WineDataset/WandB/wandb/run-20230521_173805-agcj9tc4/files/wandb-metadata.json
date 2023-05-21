@@ -1,0 +1,42 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.8",
+    "heartbeatAt": "2023-05-21T21:38:05.865751",
+    "startedAt": "2023-05-21T21:38:05.213636",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "wine.py",
+    "codePath": "WineDataset/WandB/wine.py",
+    "git": {
+        "remote": "https://github.com/schalkapurkar/Patronus-Tool-Comparison.git",
+        "commit": "8710b3d779f6412b389ceecb08e835c392c1966e"
+    },
+    "email": "saloni.chalkapurkar@gmail.com",
+    "root": "/Users/salonichalkapurkar/Desktop/520Project/Patronus-Tool-Comparison",
+    "host": "Salonis-MacBook-Pro.local",
+    "username": "salonichalkapurkar",
+    "executable": "/Users/salonichalkapurkar/opt/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 164.51166152954102
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
