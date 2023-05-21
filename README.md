@@ -7,7 +7,7 @@ Our project aims to compare and evaluate the two platforms, Neptune.ai and WandB
 
 <br>
 
-### Get Started with WandB
+## Get Started with WandB
 
 1. Create an account and install WandB
 
@@ -23,7 +23,7 @@ Our project aims to compare and evaluate the two platforms, Neptune.ai and WandB
 3. Start a run and track hyperparameters
 
     - Initialize a W&B Run object in your Python script or notebook with `wandb.init()`. A single unit of computation logged by W&B is called a Run.
-    - Pass a dictionary to the `config` parameter with key-value pairs of hyperparameter names and values. It captures any configurations that you want to associate with a specific experiment.
+    - Pass a dictionary to the `config` parameter with key-value pairs of hyperparameter names and values. It captures any configurations that you want to associate with a specific experiment. For example:
 
     ```
     run = wandb.init(
@@ -48,4 +48,46 @@ Our project aims to compare and evaluate the two platforms, Neptune.ai and WandB
     ```
 5. Run your python script and navigate to the W&B App at https://wandb.ai/home to view the metrics you logged.
 
-### Get Started with Neptune.ai
+<br>
+
+## Get Started with Neptune.ai
+
+1. Sign up at https://neptune.ai/register
+2. Create a new project in the Neptune workspace for storing your metadata
+3. Install the Neptune client library on your local machine in a Python 3 environment using 
+    - `pip install neptune`
+4. Setting up authentication
+    - From the API token dialog in Neptune, copy the export command and append the line to your .profile or other shell initialization file.
+5. Additionally, you can also save the project name to the NEPTUNE_PROJECT environment variable in your system.
+6. Add Neptune to your code
+
+    Now we import Neptune in our code, initialize a run, and start logging. Create a Python script and enter the following commands:
+
+    ```
+    import neptune
+    run = neptune.init_run(
+        project="your-workspace-name/your-project-name",
+        api_token="YourNeptuneApiToken", 
+    )
+    ```
+    In the code above, we import the Neptune client library and initialize a run object. The run object automatically logs some system information and hardware consumption.
+7. Log hyperparameters, metadata, and any configurations needed
+    
+    Now that the run is active, we will log the metadata. It is periodically synchronized with the Neptune servers in the background.
+
+    Define some hyperparameters to track for the experiment and log them to the run object. For example:
+
+    ```
+    parameters = {
+    "dense_units": 128,
+    "activation": "relu",
+    "dropout": 0.23,
+    "learning_rate": 0.15,
+    "batch_size": 64,
+    "n_epochs": 30,
+    }
+    run["model/parameters"] = parameters
+    ```
+8. Track the training process by logging your training metrics and run your ML model. Also, log the evaluation results too.
+9. Stop the connection and synchronize the data with the Neptune servers using `run.stop()`
+10. Run your script and follow the link to explore the results and metadata in Neptune under the "Run details" view
