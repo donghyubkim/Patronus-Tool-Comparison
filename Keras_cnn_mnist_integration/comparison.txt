@@ -1,0 +1,77 @@
+This Textfile are comparison of the contents that are being displayed while 
+training the same model with same dataset when integrated with wandb and neptune.
+
+Weight and bias:
+
+    wandb: Currently logged in as: donghyubkim (patronus). Use `wandb login --relogin` to force relogin
+    wandb: wandb version 0.15.3 is available!  To upgrade, please run:
+    wandb:  $ pip install wandb --upgrade
+    wandb: Tracking run with wandb version 0.14.2
+    wandb: Run data is saved locally in /Users/kimdonghyub/UMASS/UMASS_SP23/CS520/final_project/Patronus-Tool-Comparison/wandb/run-20230520_170311-hsu4xd92
+    wandb: Run `wandb offline` to turn off syncing.
+    wandb: Syncing run distinctive-dew-10
+    wandb: ⭐️ View project at https://wandb.ai/patronus/mnist-cnn-comparison
+    wandb: 🚀 View run at https://wandb.ai/patronus/mnist-cnn-comparison/runs/hsu4xd92
+    Epoch 1/5
+    1500/1500 [==============================] - 20s 12ms/step - loss: 0.1652 - accuracy: 0.9500 - val_loss: 0.0654 - val_accuracy: 0.9807
+    Epoch 2/5
+    1500/1500 [==============================] - 19s 13ms/step - loss: 0.0540 - accuracy: 0.9833 - val_loss: 0.0563 - val_accuracy: 0.9832
+    Epoch 3/5
+    1500/1500 [==============================] - 20s 13ms/step - loss: 0.0359 - accuracy: 0.9884 - val_loss: 0.0480 - val_accuracy: 0.9859
+    Epoch 4/5
+    1500/1500 [==============================] - 20s 13ms/step - loss: 0.0276 - accuracy: 0.9912 - val_loss: 0.0360 - val_accuracy: 0.9886
+    Epoch 5/5
+    1500/1500 [==============================] - 23s 16ms/step - loss: 0.0202 - accuracy: 0.9936 - val_loss: 0.0382 - val_accuracy: 0.9891
+    313/313 [==============================] - 1s 3ms/step - loss: 0.0334 - accuracy: 0.9889
+    Test loss: 0.0334
+    Test accuracy: 0.9889
+    wandb: Waiting for W&B process to finish... (success).
+    wandb: 
+    wandb: Run history:
+    wandb:      epoch/accuracy ▁▆▇██
+    wandb:         epoch/epoch ▁▃▅▆█
+    wandb: epoch/learning_rate ▁▁▁▁▁
+    wandb:          epoch/loss █▃▂▁▁
+    wandb:  epoch/val_accuracy ▁▃▅██
+    wandb:      epoch/val_loss █▆▄▁▂
+    wandb:       test_accuracy ▁
+    wandb:           test_loss ▁
+    wandb: 
+    wandb: Run summary:
+    wandb:      epoch/accuracy 0.99356
+    wandb:         epoch/epoch 4
+    wandb: epoch/learning_rate 0.001
+    wandb:          epoch/loss 0.0202
+    wandb:  epoch/val_accuracy 0.98908
+    wandb:      epoch/val_loss 0.03821
+    wandb:       test_accuracy 0.9889
+    wandb:           test_loss 0.03339
+    wandb: 
+    wandb: 🚀 View run distinctive-dew-10 at: https://wandb.ai/patronus/mnist-cnn-comparison/runs/hsu4xd92
+    wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+    wandb: Find logs at: ./wandb/run-20230520_170311-hsu4xd92/logs
+
+
+Neptune ai:
+
+    https://app.neptune.ai/donghyubkim/mnist-cnn-comparison/e/MNIS-3
+    Info (NVML): NVML Shared Library Not Found. GPU usage metrics may not be reported. For more information, see https://docs.neptune.ai/help/nvml_error/
+    Epoch 1/5
+    1500/1500 [==============================] - 20s 13ms/step - loss: 0.1627 - accuracy: 0.9501 - val_loss: 0.0840 - val_accuracy: 0.9739
+    Epoch 2/5
+    1500/1500 [==============================] - 20s 13ms/step - loss: 0.0548 - accuracy: 0.9830 - val_loss: 0.0583 - val_accuracy: 0.9803
+    Epoch 3/5
+    1500/1500 [==============================] - 21s 14ms/step - loss: 0.0374 - accuracy: 0.9882 - val_loss: 0.0553 - val_accuracy: 0.9829
+    Epoch 4/5
+    1500/1500 [==============================] - 20s 13ms/step - loss: 0.0283 - accuracy: 0.9909 - val_loss: 0.0436 - val_accuracy: 0.9861
+    Epoch 5/5
+    1500/1500 [==============================] - 20s 13ms/step - loss: 0.0207 - accuracy: 0.9934 - val_loss: 0.0400 - val_accuracy: 0.9886
+    313/313 [==============================] - 1s 3ms/step - loss: 0.0350 - accuracy: 0.9896
+    Test loss: 0.0350
+    Test accuracy: 0.9896
+    Shutting down background jobs, please wait a moment...
+    Done!
+    Waiting for the remaining 33 operations to synchronize with Neptune. Do not kill this process.
+    All 33 operations synced, thanks for waiting!
+    Explore the metadata in the Neptune app:
+    https://app.neptune.ai/donghyubkim/mnist-cnn-comparison/e/MNIS-3/metadata
