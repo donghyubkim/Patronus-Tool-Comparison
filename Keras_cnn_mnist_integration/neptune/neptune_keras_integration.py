@@ -3,6 +3,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from sklearn.model_selection import train_test_split
 from neptune.integrations.tensorflow_keras import NeptuneCallback
+from tensorflow.keras.models import Sequential
 
 import neptune
 
@@ -30,10 +31,21 @@ model = Sequential([
 ])
 
 # Compile the model
-model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+optimizer = Adam()
+model.compile(optimizer=optimizer, loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-# Train the model
-model.fit(x_train, y_train, epochs=5, validation_data=(x_val, y_val),callbacks=[neptune_callback])
+# Define the learning rate scheduler
+def lr_schedule(epoch):
+    lr = 1e-3
+    if epoch > 10:
+        lr *= 0.5
+    return lr
+
+lr_scheduler = LearningRateScheduler(lr_schedule)
+
+# Train the model with learning rate scheduler
+model.fit(x_train, y_train, epochs=15, validation_data=(x_val, y_val), callbacks=[neptune_callback, lr_scheduler])
+
 
 # Evaluate the model on the test set
 test_loss, test_acc = model.evaluate(x_test, y_test)
